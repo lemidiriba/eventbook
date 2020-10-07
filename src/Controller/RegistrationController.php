@@ -12,8 +12,10 @@ class RegistrationController extends AbstractController
      */
     public function index()
     {
+        $form = $this->g;
         return $this->render('registration/index.html.twig', [
             'controller_name' => 'RegistrationController',
+            'form' => 
         ]);
     }
 }
